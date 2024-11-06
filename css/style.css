@@ -1,0 +1,177 @@
+/*---------------
+    Reset
+---------------*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+/*---------------
+     General
+---------------*/ 
+
+
+.logo, .link, .login, 
+.end-logo, .button {
+    border:black 1px dashed;
+    margin: 10px 0;
+}
+
+.col-big, .col-small  {
+    margin: 20px 0;
+    border: black 1px dashed;
+}
+
+.qr-app, 
+.col-big-info, .col-small-info {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border: black 1px dashed;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px 0;
+}
+
+.container-info {
+    display: flex;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.container-nav, .container-end {
+    display: flex;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}    
+
+
+/*---------------
+     Header
+---------------*/   
+
+.container-top {
+    background-color: #add8e6;
+}
+
+.head-top > * {
+    padding: 2px 0;
+    background-color: #daa520;
+} 
+
+.logo, .login {
+    width: 20%;
+}
+
+.link {
+   width: 60%;
+   text-align: center;
+}
+
+.login {
+   text-align: right;
+}
+
+
+.container-bottom {
+    background-color: #00008b;
+}
+
+.hed-bottom {
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.hero {
+    width: 900px;
+    min-height: 400px;
+    background-color: #ee82ee;
+    border: black 1px dashed;
+}
+
+/*---------------
+      Main
+---------------*/
+
+/* Section Related  */
+
+
+
+.col-big {
+    width: 60%;
+    min-height: 500px;
+    background-color: #1e90ff;
+}
+
+.col-small {
+    width: 40%;
+    min-height: 500px;
+    background-color: #ffc0cb;
+}
+
+/* Work with us  */
+
+.work-with-us, .download-app {
+    background-color: #d3d3d3;
+}
+
+/* Codice QR for APP  */
+
+.qr-app {
+    width: 100%;
+    min-height: 900px;
+    background-color: #228b22;
+}
+
+/*---------------
+      Footer
+---------------*/
+/* Footer info  */
+footer {
+    background-color: #23272a;
+}
+
+.col-big-info {
+    width: 40%;
+    min-height: 600px;
+    background-color: #f08080;
+}
+
+.col-small-info {
+    width: 15%;
+    min-height: 600px;
+    background-color: #20b2aa;
+}
+
+/* Footer end  */
+
+.footer-end {
+    border-top: #fff 1px solid;
+    border-bottom: #fff 1px solid;
+}
+
+.bar-end {
+    background-color: #7fffd4;
+    min-height: 80px;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.end-logo, .button {
+    background-color: #ffb6c1;
+    text-align: center;
+    padding: 8px;
+}
