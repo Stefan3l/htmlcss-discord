@@ -15,6 +15,7 @@
 body {
     color: #fff;
     font-family: "Roboto", serif;
+    line-height: 25px;
 }
 
 
@@ -33,9 +34,19 @@ ul li > a {
 
 .btn {
     background-color: #fff;
-    border-radius: 20%;
-    padding: 8px 16px;
+    border-radius: 20px;
+    padding: 10px 20px;
     color:black
+}
+
+.btn-grey {
+    margin-left: 20px;
+    background-color: #23272a;
+    color: #fff;
+}
+
+i {
+    margin-right: 6px;
 }
 
 
@@ -57,6 +68,7 @@ ul li > a {
     margin-left: auto;
     margin-right: auto;
     padding: 40px 0;
+    justify-content: center;
 }
 
 .container-info {
@@ -80,13 +92,17 @@ ul li > a {
      Header
 ---------------*/   
 .container-top {
-    background-color: #3161e0;
+    background-color: #255EE9;
 }
 
 .container-nav {
     justify-content: space-between;
     padding: 10px 0;
     align-items: center;
+}
+
+.login {
+    color: #23272a;
 }
 
 
@@ -98,21 +114,32 @@ ul li > a {
 
 
 .container-bottom {
-    
+    background-image: url("../img/jumbo.png");
+    background-position: center;
+    background-size: cover;
 }
 
-.hed-bottom {
-    justify-content: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
+.head-bottom {
+    padding: 150px 0;
 }
+
+
 
 .hero {
     width: 900px;
     min-height: 400px;
-    background-color: #ee82ee;
-    border: black 1px dashed;
+    text-align: center;
+    justify-content: center;
 }
+
+h1 {
+    margin-bottom: 50px;
+}
+
+p{
+    margin-bottom: 50px;
+}
+
 
 /*---------------
       Main
