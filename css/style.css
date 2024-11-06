@@ -50,11 +50,9 @@ i {
 }
 
 
-.col-big, .col-small  {
-    margin: 20px 0;
-    border: black 1px dashed;
+main h1, p {
+    color: #23272a;
 }
-
 .qr-app, 
 .col-big-info, .col-small-info {
     margin-top: 10px;
@@ -150,15 +148,12 @@ p{
 
 
 .col-big {
-    width: 60%;
-    min-height: 500px;
-    background-color: #1e90ff;
+    width: 80%;
 }
 
 .col-small {
-    width: 40%;
-    min-height: 500px;
-    background-color: #ffc0cb;
+    width: 20%;
+    align-self: center;
 }
 
 /* Work with us  */
