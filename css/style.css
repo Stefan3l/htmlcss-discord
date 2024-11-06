@@ -85,6 +85,7 @@ main h1, h2 {
     margin-right: auto;
     padding-top: 10px;
     padding-bottom: 40px;
+    border-bottom: 1px solid #7289da ;
 }
 
 .container-nav, .container-end {
@@ -112,11 +113,6 @@ header p {
     padding: 10px 0;
     align-items: center;
 }
-
-.login {
-    color: #23272a;
-}
-
 
 .link {
     display: flex;
@@ -212,10 +208,6 @@ footer {
 
 /* Footer end  */
 
-.footer-end {
-    border-top: #fff 1px solid;
-    border-bottom: #fff 1px solid;
-}
 
 footer h1, h3, h6 {
     color: #7289da;   
@@ -236,7 +228,6 @@ footer h3 {
 }
 
 
-
 .list {
     display: inline-block;
 }
@@ -248,15 +239,17 @@ footer h3 {
 
 
 .bar-end {
-    background-color: #7fffd4;
     min-height: 80px;
     margin-top: 20px;
     justify-content: space-between;
     align-items: center;
 }
 
-.end-logo, .button {
-    background-color: #ffb6c1;
-    text-align: center;
-    padding: 8px;
+
+.btn-end {
+    background-color: #8ea1e1;
+}
+
+.fa-instagram, .fa-facebook, .fa-youtube {
+    margin-left: 20px;
 }
