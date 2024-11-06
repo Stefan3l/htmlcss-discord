@@ -53,6 +53,11 @@ i {
 main h1, p {
     color: #23272a;
 }
+
+img {
+    width: 100%;
+}
+
 .qr-app, 
 .col-big-info, .col-small-info {
     margin-top: 10px;
@@ -132,6 +137,7 @@ main h1, p {
 
 h1 {
     margin-bottom: 50px;
+    padding-top: 38px;
 }
 
 p{
@@ -148,18 +154,18 @@ p{
 
 
 .col-big {
-    width: 80%;
+    width: 60%;
 }
 
 .col-small {
-    width: 20%;
-    align-self: center;
+    width: 40%;
+    align-self: flex-start;
 }
 
-/* Work with us  */
+/* The mitting place  */
 
-.work-with-us, .download-app {
-    background-color: #d3d3d3;
+.the-place {
+    background-color: #f6f6f6;
 }
 
 /* Codice QR for APP  */
