@@ -22,12 +22,22 @@ body {
      General
 ---------------*/ 
 
-
-.logo, .link, .login, 
-.end-logo, .button {
-    border:black 1px dashed;
-    margin: 10px 0;
+ul li {
+    list-style: none;
 }
+
+ul li > a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.btn {
+    background-color: #fff;
+    border-radius: 20%;
+    padding: 8px 16px;
+    color:black
+}
+
 
 .col-big, .col-small  {
     margin: 20px 0;
@@ -69,29 +79,26 @@ body {
 /*---------------
      Header
 ---------------*/   
-
-
-.head-top > * {
-    padding: 2px 0;
-    
-} 
-
-.logo, .login {
-    width: 20%;
+.container-top {
+    background-color: #3161e0;
 }
+
+.container-nav {
+    justify-content: space-between;
+    padding: 10px 0;
+    align-items: center;
+}
+
 
 .link {
-   width: 60%;
-   text-align: center;
-}
-
-.login {
-   text-align: right;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
 }
 
 
 .container-bottom {
-    background-color: #00008b;
+    
 }
 
 .hed-bottom {
