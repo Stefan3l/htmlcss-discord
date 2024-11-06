@@ -54,6 +54,10 @@ main h1, p {
     color: #23272a;
 }
 
+main section:nth-of-type(even) {
+    background-color: #f6f6f6;
+}
+
 img {
     width: 100%;
 }
