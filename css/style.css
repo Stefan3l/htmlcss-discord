@@ -50,9 +50,10 @@ i {
 }
 
 
-main h1, p {
+main h1, h2, p {
     color: #23272a;
 }
+
 
 main section:nth-of-type(even) {
     background-color: #f6f6f6;
@@ -62,11 +63,10 @@ img {
     width: 100%;
 }
 
-.qr-app, 
-.col-big-info, .col-small-info {
-    margin-top: 10px;
-    margin-bottom: 30px;
-    border: black 1px dashed;
+header h1, h2, 
+main h1, h2 {
+    margin-bottom: 50px;
+    padding-top: 38px;
 }
 
 .container {
@@ -98,6 +98,11 @@ img {
 /*---------------
      Header
 ---------------*/   
+
+header p {
+    color: #fff;
+}
+
 .container-top {
     background-color: #255EE9;
 }
@@ -139,13 +144,16 @@ img {
     justify-content: center;
 }
 
-h1 {
-    margin-bottom: 50px;
-    padding-top: 38px;
-}
+
 
 p{
     margin-bottom: 50px;
+}
+
+.btn-bottom {
+    background-color: #8ea1e1;
+    border-radius: 20px;
+    padding: 10px 20px;
 }
 
 
@@ -172,13 +180,16 @@ p{
     background-color: #f6f6f6;
 }
 
-/* Codice QR for APP  */
+/* Tehnology  */
 
-.qr-app {
+.tehnology {
     width: 100%;
     min-height: 900px;
-    background-color: #228b22;
+    text-align: center;
+    padding-bottom: 40px;
 }
+
+
 
 /*---------------
       Footer
@@ -191,13 +202,12 @@ footer {
 .col-big-info {
     width: 40%;
     min-height: 600px;
-    background-color: #f08080;
 }
 
 .col-small-info {
     width: 15%;
     min-height: 600px;
-    background-color: #20b2aa;
+    line-height: 25px;
 }
 
 /* Footer end  */
@@ -206,6 +216,36 @@ footer {
     border-top: #fff 1px solid;
     border-bottom: #fff 1px solid;
 }
+
+footer h1, h3, h6 {
+    color: #7289da;   
+    line-height: 30px;
+}
+
+h1, h6 {
+    padding-top: 38px;
+}
+
+h6 {
+    font-size: 15px;
+}
+
+footer h3 {
+    color: #fff;
+    font-size: 16px;
+}
+
+
+
+.list {
+    display: inline-block;
+}
+
+.flag {
+    width: 16px;
+    height: 16px;
+}
+
 
 .bar-end {
     background-color: #7fffd4;
