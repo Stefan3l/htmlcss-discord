@@ -8,6 +8,15 @@
   box-sizing: border-box;
 }
 
+/*---------------
+   Tiphograqphy
+---------------*/ 
+
+body {
+    color: #fff;
+    font-family: "Roboto", serif;
+}
+
 
 /*---------------
      General
@@ -61,13 +70,10 @@
      Header
 ---------------*/   
 
-.container-top {
-    background-color: #add8e6;
-}
 
 .head-top > * {
     padding: 2px 0;
-    background-color: #daa520;
+    
 } 
 
 .logo, .login {
