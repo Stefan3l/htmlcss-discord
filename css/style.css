@@ -64,6 +64,10 @@ img {
     max-width: 100%;
 }
 
+.right-image {
+    text-align: right;
+}
+
 header h1, h2, 
 main h1, h2 {
     margin-bottom: 50px;
