@@ -212,6 +212,12 @@ footer {
     line-height: 25px;
 }
 
+#title-stars {
+    background-image: url("../img/stars.svg");
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
 /* Footer end  */
 
 
