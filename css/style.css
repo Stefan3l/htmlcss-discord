@@ -38,6 +38,7 @@ ul li > a {
     padding: 10px 20px;
     color:black;
     cursor: pointer;
+    border: none;
 }
 
 .btn-grey {
