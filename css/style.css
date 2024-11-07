@@ -61,7 +61,7 @@ main section:nth-of-type(even) {
 }
 
 img {
-    width: 100%;
+    max-width: 100%;
 }
 
 header h1, h2, 
@@ -164,11 +164,11 @@ p{
 
 
 .col-big {
-    width: 60%;
+    width: 70%;
 }
 
 .col-small {
-    width: 40%;
+    width: 30%;
     align-self: flex-start;
 }
 
